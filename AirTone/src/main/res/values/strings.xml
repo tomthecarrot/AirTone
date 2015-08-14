@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AirTone</string>
+    <string name="directions">Move your hand up and down from the camera to make different tones.</string>
+    <string name="ad_unit_id">ca-app-pub-2765178653309044/2170240817</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

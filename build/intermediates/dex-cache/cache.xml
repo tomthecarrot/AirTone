@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tom/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/tom/Dropbox/apps/java/Android/AirTone/AirTone/build/intermediates/pre-dexed/debug/support-v4-19.1.0-4a8206c26b28373e35509584bbf57a9eec3cd1c3.jar" />
+    </item>
+    <item
+        jar="/Users/tom/Dropbox/apps/java/Android/AirTone/AirTone/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
+        <dex dex="/Users/tom/Dropbox/apps/java/Android/AirTone/AirTone/build/intermediates/pre-dexed/debug/classes-1f272742966040622decc36582063e85265234a7.jar" />
+    </item>
+    <item
+        jar="/Users/tom/Dropbox/apps/java/Android/AirTone/AirTone/libs/FlurryAnalytics-4.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4fcf733ae6d937dbba0f42b6549ffbb8a068dc6c">
+        <dex dex="/Users/tom/Dropbox/apps/java/Android/AirTone/AirTone/build/intermediates/pre-dexed/debug/FlurryAnalytics-4.0.0-96cb521c87593d0ed6b66487fd46fe54bf8d28a4.jar" />
+    </item>
+
+</items>

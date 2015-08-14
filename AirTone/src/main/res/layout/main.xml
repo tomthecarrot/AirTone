@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.carrotcorp.airtone2.AirTone">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/handview"
+        android:src="@drawable/closedhand"
+        android:layout_marginBottom="26dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:id="@+id/logotext"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/airtonetext" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linesplit"
+        android:src="@drawable/linesplit"
+        android:layout_marginTop="50dp" />
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/modbtn"
+        android:background="#00FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/linesplit"
+        android:layout_alignEnd="@+id/linesplit"
+        android:onClick="toggleModulate"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>
